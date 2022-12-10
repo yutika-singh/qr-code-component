@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/************************ TAG STYLES ************************/
+body{
+    margin: 0;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+p{
+    font-size: 0.938rem;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    margin: auto 0.8rem;
+}
+h2{
+    font-size: 1.4em;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+}
+img{
+    border-radius: 5%;
+    width: 100%;
+}
+
+
+/************************ CLASS STYLES ************************/
+.qr{
+    max-width: 18rem;
+    height: 30rem;
+    margin: 7rem auto;
+    padding: 1.125rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
